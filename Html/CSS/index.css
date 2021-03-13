@@ -1,0 +1,104 @@
+.base--calculadora
+{
+    width: 617px;
+    height: 580px;
+    background-color: #ffffff;
+    left: 50%;
+    top: 50%;
+    margin: 10px 0 0 348px;
+}
+.base--interface
+{
+    width: 342px;
+    height: 173px;
+    background-color: #cccccc;
+}
+.result--interface
+{
+    width: 334px;
+    height: 61px;
+    font-size: 25px;
+    font: 300;
+    text-align: center;
+    margin: 0 0 0 3px;
+    background-color: #c5c5c5;
+}
+.temp--result
+{
+    width: 302px;
+    height: 25px;
+    margin: 10px 0 0 18.5px;
+    background-color: #dbdbdb;
+}
+.temp--result-p
+{
+    text-align: right;
+    font-size: 20px;
+}
+.base--keyboard
+{
+    width: 342px;
+    height: 318px;
+    margin: 25px 0 0 0;
+    background-color: #dddddd;
+    border-color: #ccccccb0;
+}
+.base--historico
+{
+    display: flex;
+    width: 265px;
+    height: 448px;
+    margin: -447px 0px 0px 349px;
+    background-color: #ebebeb;
+}
+.not--historico
+{
+    width: 260px;
+    height: 26px;
+    text-align: left;
+    margin: 14px 0 0 -109px;
+    background-color: #f1f1f1fb;
+}
+.result--historico
+{
+    width: 251px;
+    height: 42px;
+    text-align: right;
+    margin: 55px -258px;
+    background-color: #f1f1f1f6;
+}
+.operator,
+.number,
+.empty
+{
+    width: 81px;
+    height: 56px;
+    font-size: 25px;
+    background-color: #e6e6e6;
+    border-color:#f1f1f1;
+    border-radius: 1.5px;
+    outline: 0;
+    cursor: pointer;
+}
+.row-1,
+.row-2,
+.row-3,
+.row-4,
+.row-5
+{
+    display: flex;
+    padding: 2px 2px;
+    margin-left: 8px;
+}
+.result--count
+{
+    padding: 22px 0 0 200px;
+}
+.header--historico
+{
+    margin: -47px 0px 0px 8px;
+}
+.result--historico
+{
+    font-size: 20px;
+}

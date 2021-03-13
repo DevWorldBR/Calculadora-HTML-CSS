@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; }
+        body { background-color: #5F7C8A; }
+    </style>
+    <body>
+        <section class="base--calculadora">
+            <div class="base--interface">
+                <div class="result--interface">
+                    <p class="result--count" id="result"></p>
+                </div>
+                <div class="temp--result-p">
+                    <p class="temp--result" id="temp--res"></p>
+                </div>
+            </div>
+            <div class="base--keyboard">
+                <div class="row-1">
+                    <button class="operator" id="%">%</button>
+                    <button class="operator" id="CE">CE</button>
+                    <button class="operator" id="C">C</button>
+                    <button class="operator" id="/">&#247;</button>
+                </div>
+                <div class="row-2">
+                    <button class="number" id="7">7</button>
+                    <button class="number" id="8">8</button>
+                    <button class="number" id="9">9</button>
+                    <button class="operator" id="*">&times;</button>
+                </div>
+                <div class="row-3">
+                    <button class="number" id="4">4</button>
+                    <button class="number" id="5">5</button>
+                    <button class="number" id="6">6</button>
+                    <button class="operator" id="-">-</button>
+                </div>
+                <div class="row-4">
+                    <button class="number" id="a1">1</button>
+                    <button class="number" id="2">2</button>
+                    <button class="number" id="3">3</button>
+                    <button class="operator" id="+">+</button>
+                </div>
+                <div class="row-5">
+                    <button class="empty" id="empty"></button>
+                    <button class="number" id="0">0</button>
+                    <button class="empty" id="empty"></button>
+                    <button class="operator" id="=">=</button>
+                </div>
+            </div>
+            <div class="base--historico">
+                <div class="header--historico">
+                    <h1>Historico</h1>
+                </div>
+                <div class="not--historico">
+                    <p class="ntht" id="not--hist">Ainda não há histórico</p>
+                </div>
+                <div class="result--historico">
+                    <p class="result--hist" id="res--hist"></p>
+                </div>
+            </div>
+        </section>
+    </body>
+    <script src="./js/main.js"></script>
+    <script src="./js/index.js"></script>
+</html>
